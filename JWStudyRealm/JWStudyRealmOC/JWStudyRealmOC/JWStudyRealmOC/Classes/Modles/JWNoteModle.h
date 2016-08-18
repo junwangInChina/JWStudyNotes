@@ -10,4 +10,9 @@
 
 @interface JWNoteModle : RLMObject
 
+@property NSString *noteTitle;
+@property NSString *noteContent;
+@property NSDate *noteCreateDate;
+@property NSDate *noteUpdateDate;
+
 @end

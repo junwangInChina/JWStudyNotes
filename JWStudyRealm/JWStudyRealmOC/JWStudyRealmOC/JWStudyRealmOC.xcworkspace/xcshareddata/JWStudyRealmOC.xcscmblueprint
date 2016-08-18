@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4C7E6A28A6C21087B837E5E74FAB7B7EB47AA765",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "57B80B00B8D098FCE4AF697556709064A1870985" : 0,
+    "4C7E6A28A6C21087B837E5E74FAB7B7EB47AA765" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06714443-6971-4BEC-85FF-21083D6CBE05",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "57B80B00B8D098FCE4AF697556709064A1870985" : "",
+    "4C7E6A28A6C21087B837E5E74FAB7B7EB47AA765" : "JWStudyNotes\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JWStudyRealmOC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JWStudyRealm\/JWStudyRealmOC\/JWStudyRealmOC\/JWStudyRealmOC.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/junwangInChina\/JWStudyNotes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4C7E6A28A6C21087B837E5E74FAB7B7EB47AA765"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/junwangInChina\/JWTestSourceTree.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57B80B00B8D098FCE4AF697556709064A1870985"
+    }
+  ]
+}

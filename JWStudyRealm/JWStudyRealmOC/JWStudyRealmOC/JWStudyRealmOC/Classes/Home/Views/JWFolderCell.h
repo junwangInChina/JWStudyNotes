@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class JWFolderModle;
+
 @interface JWFolderCell : UITableViewCell
+
+- (void)configModle:(JWFolderModle *)modle;
 
 @end

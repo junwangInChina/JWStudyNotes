@@ -8,6 +8,10 @@
 
 #import "JWBaseViewController.h"
 
+@class JWFolderModle;
+
 @interface JWNoteListController : JWBaseViewController
+
+- (instancetype)initWithFolder:(JWFolderModle *)modle;
 
 @end

@@ -1,3 +1,4 @@
+
 //
 //  JWFolderModle.m
 //  JWStudyRealmOC
@@ -9,5 +10,16 @@
 #import "JWFolderModle.h"
 
 @implementation JWFolderModle
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self)
+    {
+        self.folderCreateDate = [NSDate date];
+        self.folderUpdateDate = [NSDate date];
+    }
+    return self;
+}
 
 @end

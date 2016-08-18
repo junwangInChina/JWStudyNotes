@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24D45F206EF55B4BFCF36588 /* libPods-JWStudyRealmOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F2CB59A0295BBBD896A17E /* libPods-JWStudyRealmOC.a */; };
 		DA6DC5C71D6407D10090B1CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC5C61D6407D10090B1CF /* main.m */; };
 		DA6DC5CA1D6407D10090B1CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC5C91D6407D10090B1CF /* AppDelegate.m */; };
-		DA6DC5CD1D6407D10090B1CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC5CC1D6407D10090B1CF /* ViewController.m */; };
 		DA6DC5D01D6407D10090B1CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6DC5CE1D6407D10090B1CF /* Main.storyboard */; };
 		DA6DC5D21D6407D10090B1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6DC5D11D6407D10090B1CF /* Assets.xcassets */; };
 		DA6DC5D51D6407D10090B1CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6DC5D31D6407D10090B1CF /* LaunchScreen.storyboard */; };
 		DA6DC5E01D6407D10090B1CF /* JWStudyRealmOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC5DF1D6407D10090B1CF /* JWStudyRealmOCTests.m */; };
 		DA6DC5EB1D6407D10090B1CF /* JWStudyRealmOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC5EA1D6407D10090B1CF /* JWStudyRealmOCUITests.m */; };
+		DA6DC5FF1D640BEA0090B1CF /* JWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC5FE1D640BEA0090B1CF /* JWNavigationController.m */; };
+		DA6DC6021D640BFB0090B1CF /* JWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC6011D640BFB0090B1CF /* JWBaseViewController.m */; };
+		DA6DC6051D640C200090B1CF /* JWNoteListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC6041D640C200090B1CF /* JWNoteListController.m */; };
+		DA6DC60A1D6438040090B1CF /* JWNoteModle.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC6091D6438040090B1CF /* JWNoteModle.m */; };
+		DA6DC60D1D643B810090B1CF /* JWFolderModle.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC60C1D643B810090B1CF /* JWFolderModle.m */; };
+		DA6DC6171D644F520090B1CF /* JWFolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC6161D644F520090B1CF /* JWFolderCell.m */; };
+		DA6DC61A1D645A3C0090B1CF /* JWNoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC6191D645A3C0090B1CF /* JWNoteDetailViewController.m */; };
+		DA6DC61D1D645A6D0090B1CF /* JWFolderListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC61C1D645A6D0090B1CF /* JWFolderListController.m */; };
+		DA6DC6201D645CDE0090B1CF /* JWNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DC61F1D645CDE0090B1CF /* JWNoteCell.m */; };
+		DAA513D01D6558CB00E8701C /* JWLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA513CF1D6558CB00E8701C /* JWLoginController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8247FFEC7D66529DA5668C6 /* Pods-JWStudyRealmOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWStudyRealmOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWStudyRealmOC/Pods-JWStudyRealmOC.release.xcconfig"; sourceTree = "<group>"; };
 		DA6DC5C21D6407D10090B1CF /* JWStudyRealmOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWStudyRealmOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6DC5C61D6407D10090B1CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA6DC5C81D6407D10090B1CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA6DC5C91D6407D10090B1CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DA6DC5CB1D6407D10090B1CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DA6DC5CC1D6407D10090B1CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DA6DC5CF1D6407D10090B1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA6DC5D11D6407D10090B1CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA6DC5D41D6407D10090B1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,30 @@
 		DA6DC5E61D6407D10090B1CF /* JWStudyRealmOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWStudyRealmOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6DC5EA1D6407D10090B1CF /* JWStudyRealmOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWStudyRealmOCUITests.m; sourceTree = "<group>"; };
 		DA6DC5EC1D6407D10090B1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6DC5FD1D640BEA0090B1CF /* JWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWNavigationController.h; sourceTree = "<group>"; };
+		DA6DC5FE1D640BEA0090B1CF /* JWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWNavigationController.m; sourceTree = "<group>"; };
+		DA6DC6001D640BFB0090B1CF /* JWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWBaseViewController.h; sourceTree = "<group>"; };
+		DA6DC6011D640BFB0090B1CF /* JWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWBaseViewController.m; sourceTree = "<group>"; };
+		DA6DC6031D640C200090B1CF /* JWNoteListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWNoteListController.h; sourceTree = "<group>"; };
+		DA6DC6041D640C200090B1CF /* JWNoteListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWNoteListController.m; sourceTree = "<group>"; };
+		DA6DC6061D642C260090B1CF /* JWStudyRealmOC-Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWStudyRealmOC-Prefix.h"; sourceTree = "<group>"; };
+		DA6DC6081D6438040090B1CF /* JWNoteModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWNoteModle.h; sourceTree = "<group>"; };
+		DA6DC6091D6438040090B1CF /* JWNoteModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWNoteModle.m; sourceTree = "<group>"; };
+		DA6DC60B1D643B810090B1CF /* JWFolderModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWFolderModle.h; sourceTree = "<group>"; };
+		DA6DC60C1D643B810090B1CF /* JWFolderModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWFolderModle.m; sourceTree = "<group>"; };
+		DA6DC6111D6441090090B1CF /* JWDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWDefine.h; sourceTree = "<group>"; };
+		DA6DC6151D644F520090B1CF /* JWFolderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWFolderCell.h; sourceTree = "<group>"; };
+		DA6DC6161D644F520090B1CF /* JWFolderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWFolderCell.m; sourceTree = "<group>"; };
+		DA6DC6181D645A3C0090B1CF /* JWNoteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWNoteDetailViewController.h; sourceTree = "<group>"; };
+		DA6DC6191D645A3C0090B1CF /* JWNoteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWNoteDetailViewController.m; sourceTree = "<group>"; };
+		DA6DC61B1D645A6D0090B1CF /* JWFolderListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWFolderListController.h; sourceTree = "<group>"; };
+		DA6DC61C1D645A6D0090B1CF /* JWFolderListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWFolderListController.m; sourceTree = "<group>"; };
+		DA6DC61E1D645CDE0090B1CF /* JWNoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWNoteCell.h; sourceTree = "<group>"; };
+		DA6DC61F1D645CDE0090B1CF /* JWNoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWNoteCell.m; sourceTree = "<group>"; };
+		DAA513CE1D6558CB00E8701C /* JWLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWLoginController.h; sourceTree = "<group>"; };
+		DAA513CF1D6558CB00E8701C /* JWLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWLoginController.m; sourceTree = "<group>"; };
+		DE040E1679DD386E3BF75066 /* Pods-JWStudyRealmOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWStudyRealmOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWStudyRealmOC/Pods-JWStudyRealmOC.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F2CB59A0295BBBD896A17E /* libPods-JWStudyRealmOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWStudyRealmOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D45F206EF55B4BFCF36588 /* libPods-JWStudyRealmOC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +112,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72EDB64C238AE7C3F34C9235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1F2CB59A0295BBBD896A17E /* libPods-JWStudyRealmOC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B064FCF6062156284DA34311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE040E1679DD386E3BF75066 /* Pods-JWStudyRealmOC.debug.xcconfig */,
+				B8247FFEC7D66529DA5668C6 /* Pods-JWStudyRealmOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA6DC5B91D6407D10090B1CF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +136,8 @@
 				DA6DC5DE1D6407D10090B1CF /* JWStudyRealmOCTests */,
 				DA6DC5E91D6407D10090B1CF /* JWStudyRealmOCUITests */,
 				DA6DC5C31D6407D10090B1CF /* Products */,
+				B064FCF6062156284DA34311 /* Pods */,
+				72EDB64C238AE7C3F34C9235 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +154,9 @@
 		DA6DC5C41D6407D10090B1CF /* JWStudyRealmOC */ = {
 			isa = PBXGroup;
 			children = (
+				DA6DC5F81D640BA00090B1CF /* Classes */,
 				DA6DC5C81D6407D10090B1CF /* AppDelegate.h */,
 				DA6DC5C91D6407D10090B1CF /* AppDelegate.m */,
-				DA6DC5CB1D6407D10090B1CF /* ViewController.h */,
-				DA6DC5CC1D6407D10090B1CF /* ViewController.m */,
 				DA6DC5CE1D6407D10090B1CF /* Main.storyboard */,
 				DA6DC5D11D6407D10090B1CF /* Assets.xcassets */,
 				DA6DC5D31D6407D10090B1CF /* LaunchScreen.storyboard */,
@@ -118,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				DA6DC5C61D6407D10090B1CF /* main.m */,
+				DA6DC6061D642C260090B1CF /* JWStudyRealmOC-Prefix.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +193,90 @@
 			path = JWStudyRealmOCUITests;
 			sourceTree = "<group>";
 		};
+		DA6DC5F81D640BA00090B1CF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DC60E1D6440950090B1CF /* Define */,
+				DA6DC6071D6437E80090B1CF /* Modles */,
+				DAA513CD1D65589B00E8701C /* Account */,
+				DA6DC5F91D640BA00090B1CF /* Home */,
+				DA6DC5FC1D640BA00090B1CF /* Root */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DA6DC5F91D640BA00090B1CF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DC5FA1D640BA00090B1CF /* Controllers */,
+				DA6DC5FB1D640BA00090B1CF /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA6DC5FA1D640BA00090B1CF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DC61B1D645A6D0090B1CF /* JWFolderListController.h */,
+				DA6DC61C1D645A6D0090B1CF /* JWFolderListController.m */,
+				DA6DC6031D640C200090B1CF /* JWNoteListController.h */,
+				DA6DC6041D640C200090B1CF /* JWNoteListController.m */,
+				DA6DC6181D645A3C0090B1CF /* JWNoteDetailViewController.h */,
+				DA6DC6191D645A3C0090B1CF /* JWNoteDetailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DA6DC5FB1D640BA00090B1CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DC6151D644F520090B1CF /* JWFolderCell.h */,
+				DA6DC6161D644F520090B1CF /* JWFolderCell.m */,
+				DA6DC61E1D645CDE0090B1CF /* JWNoteCell.h */,
+				DA6DC61F1D645CDE0090B1CF /* JWNoteCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA6DC5FC1D640BA00090B1CF /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DC5FD1D640BEA0090B1CF /* JWNavigationController.h */,
+				DA6DC5FE1D640BEA0090B1CF /* JWNavigationController.m */,
+				DA6DC6001D640BFB0090B1CF /* JWBaseViewController.h */,
+				DA6DC6011D640BFB0090B1CF /* JWBaseViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		DA6DC6071D6437E80090B1CF /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DC6081D6438040090B1CF /* JWNoteModle.h */,
+				DA6DC6091D6438040090B1CF /* JWNoteModle.m */,
+				DA6DC60B1D643B810090B1CF /* JWFolderModle.h */,
+				DA6DC60C1D643B810090B1CF /* JWFolderModle.m */,
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		DA6DC60E1D6440950090B1CF /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DC6111D6441090090B1CF /* JWDefine.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		DAA513CD1D65589B00E8701C /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				DAA513CE1D6558CB00E8701C /* JWLoginController.h */,
+				DAA513CF1D6558CB00E8701C /* JWLoginController.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA6DC5EF1D6407D10090B1CF /* Build configuration list for PBXNativeTarget "JWStudyRealmOC" */;
 			buildPhases = (
+				068521ED82082874341CEEF4 /* 📦 Check Pods Manifest.lock */,
 				DA6DC5BE1D6407D10090B1CF /* Sources */,
 				DA6DC5BF1D6407D10090B1CF /* Frameworks */,
 				DA6DC5C01D6407D10090B1CF /* Resources */,
+				F561D729BC02C2CF24686572 /* 📦 Embed Pods Frameworks */,
+				378D488391635F33A6B23551 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +405,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		068521ED82082874341CEEF4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		378D488391635F33A6B23551 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWStudyRealmOC/Pods-JWStudyRealmOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F561D729BC02C2CF24686572 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWStudyRealmOC/Pods-JWStudyRealmOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA6DC5BE1D6407D10090B1CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6DC5CD1D6407D10090B1CF /* ViewController.m in Sources */,
+				DA6DC61A1D645A3C0090B1CF /* JWNoteDetailViewController.m in Sources */,
+				DA6DC6021D640BFB0090B1CF /* JWBaseViewController.m in Sources */,
+				DA6DC6051D640C200090B1CF /* JWNoteListController.m in Sources */,
+				DA6DC6201D645CDE0090B1CF /* JWNoteCell.m in Sources */,
+				DAA513D01D6558CB00E8701C /* JWLoginController.m in Sources */,
+				DA6DC60A1D6438040090B1CF /* JWNoteModle.m in Sources */,
 				DA6DC5CA1D6407D10090B1CF /* AppDelegate.m in Sources */,
 				DA6DC5C71D6407D10090B1CF /* main.m in Sources */,
+				DA6DC61D1D645A6D0090B1CF /* JWFolderListController.m in Sources */,
+				DA6DC60D1D643B810090B1CF /* JWFolderModle.m in Sources */,
+				DA6DC6171D644F520090B1CF /* JWFolderCell.m in Sources */,
+				DA6DC5FF1D640BEA0090B1CF /* JWNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +561,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -411,23 +608,33 @@
 		};
 		DA6DC5F01D6407D10090B1CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE040E1679DD386E3BF75066 /* Pods-JWStudyRealmOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JWStudyRealmOC/JWStudyRealmOC-Prefix.h";
 				INFOPLIST_FILE = JWStudyRealmOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JW.JWStudyRealmOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.Secret.AppID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67f64720-1d43-4440-a5df-adc1c9b597e4";
 			};
 			name = Debug;
 		};
 		DA6DC5F11D6407D10090B1CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8247FFEC7D66529DA5668C6 /* Pods-JWStudyRealmOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JWStudyRealmOC/JWStudyRealmOC-Prefix.h";
 				INFOPLIST_FILE = JWStudyRealmOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JW.JWStudyRealmOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.Secret.AppID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67f64720-1d43-4440-a5df-adc1c9b597e4";
 			};
 			name = Release;
 		};
@@ -496,6 +703,7 @@
 				DA6DC5F11D6407D10090B1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA6DC5F21D6407D10090B1CF /* Build configuration list for PBXNativeTarget "JWStudyRealmOCTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +712,7 @@
 				DA6DC5F41D6407D10090B1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA6DC5F51D6407D10090B1CF /* Build configuration list for PBXNativeTarget "JWStudyRealmOCUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +721,7 @@
 				DA6DC5F71D6407D10090B1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

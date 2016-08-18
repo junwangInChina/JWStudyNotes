@@ -8,6 +8,10 @@
 
 #import "JWBaseViewController.h"
 
+typedef void(^LoginComplete)(BOOL success);
+
 @interface JWLoginController : JWBaseViewController
+
+@property (nonatomic, copy) LoginComplete complete;
 
 @end

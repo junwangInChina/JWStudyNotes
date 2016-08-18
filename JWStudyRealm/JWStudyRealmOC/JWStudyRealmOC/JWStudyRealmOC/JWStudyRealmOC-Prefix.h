@@ -9,5 +9,8 @@
 #ifndef JWStudyRealmOC_Prefix_h
 #define JWStudyRealmOC_Prefix_h
 
+#import "JWDefine.h"
+
+#import <Masonry.h>
 
 #endif /* JWStudyRealmOC_Prefix_h */

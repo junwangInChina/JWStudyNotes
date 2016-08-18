@@ -8,6 +8,13 @@
 
 #import <Realm/Realm.h>
 
+RLM_ARRAY_TYPE(JWNoteModle)
+
 @interface JWFolderModle : RLMObject
+
+@property NSString *folderTitle;
+@property RLMArray<JWNoteModle> *notes;
+@property NSDate *folderCreateDate;
+@property NSDate *folderUpdateDate;
 
 @end

@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "JWNavigationController.h"
+#import "JWFolderListController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    JWFolderListController *folderController = [[JWFolderListController alloc] init];
+    JWNavigationController *folderNav = [[JWNavigationController alloc] initWithRootViewController:folderController];
+    self.window.rootViewController = folderNav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

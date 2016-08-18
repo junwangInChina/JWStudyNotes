@@ -10,4 +10,15 @@
 
 @implementation JWNoteModle
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self)
+    {
+        self.noteCreateDate = [NSDate date];
+        self.noteUpdateDate = [NSDate date];
+    }
+    return self;
+}
+
 @end

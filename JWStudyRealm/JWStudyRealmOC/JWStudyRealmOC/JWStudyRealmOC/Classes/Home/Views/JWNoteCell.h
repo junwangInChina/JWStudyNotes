@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class JWNoteModle;
+
 @interface JWNoteCell : UITableViewCell
+
+- (void)configModle:(JWNoteModle *)modle;
 
 @end
